@@ -10,7 +10,7 @@
   width: 100px;
   position: relative;
   left: -50px;
-  transition: 300ms ease .1s;
+  transition: 200ms ease .05s;
 }
 
 .social-boxes:hover {
