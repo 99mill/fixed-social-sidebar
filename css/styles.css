@@ -1,7 +1,80 @@
+/*=========== GLOBAL ==========*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:600|Playfair+Display:700i');
+
+/*font-family: 'Playfair Display', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;*/
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #A09F9F;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  color: #A09F9F;
+}
+
+/*========== HEADER ==========*/
+
+#logo {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 7px;
+}
+
+.navbar {
+  background-color: #252525;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: rgba(0,0,0,.4);
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  background-color: rgba(0,0,0,.4);
+  color: #fff;
+}
+
+/*========== CONTENT ==========*/
+
+.content-block {
+  margin-top: 100px;
+}
+
+#title {
+  text-align: center;
+  border-bottom: solid #DA293A 5px;
+  padding-bottom: 15px;
+  font-size: 72px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*========== SOCIAL MEDIA SIDEBAR ==========*/
+
 .social-col {
   display: flex;
   flex-direction: column;
-  margin-top: 300px;
+  margin-top: -150px;
   position: fixed;
 }
 
@@ -17,6 +90,10 @@
   transform: translateX(10px);
 }
 
+.social-boxes a {
+  text-decoration: none;
+}
+
 .social-boxes>a>i {
   color: #fff;
   font-size: 30px;
@@ -24,7 +101,6 @@
   margin-left: 50px;
   display: flex;
   justify-content: center;
-  text-decoration: none;
 }
 
 #facebook {
