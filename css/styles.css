@@ -1,0 +1,82 @@
+.social-col {
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+  position: fixed;
+}
+
+.social-boxes {
+  height: 50px;
+  width: 100px;
+  position: relative;
+  left: -50px;
+  transition: 300ms ease .1s;
+}
+
+.social-boxes:hover {
+  transform: translateX(10px);
+}
+
+.social-boxes>a>i {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#facebook {
+ background-color: #3B5998;
+}
+
+#twitter {
+  background-color: #1DA1F2;
+}
+
+#print {
+  background-color: #252525;
+}
+
+#mail {
+  background-color: #6C6B6B;
+}
+
+#plus {
+  background-color: #DA293A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.*/
